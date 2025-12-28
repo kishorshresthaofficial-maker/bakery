@@ -1,0 +1,47 @@
+div.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.links
+{
+    display: flex;
+    gap: 50px;
+}
+
+.links a{
+    color: #555;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.links a:hover{
+    color: #bc8157;
+}
+
+.user-icons
+{
+    display: flex;
+    gap: 10px;
+}
+
+.icon .icons_style
+{
+    font-size: 30px;
+}
+
+.heroImg
+{
+    margin: -10px 0 0 0;
+   height: 100vh;
+   /* display: flex; */
+   background-color: #bc8157;
+}
+
+img
+{
+    width: 100%;
+}
