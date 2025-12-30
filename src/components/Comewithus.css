@@ -1,0 +1,28 @@
+.come_with_us
+{
+    background-image: url("products/m1-bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none; 
+    /* position: fixed; */
+}
+
+.inner_text_container
+{
+    position:relative;
+    /* top: 0; */
+}
+
+    /* .inner_come
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .inner_text_container
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */

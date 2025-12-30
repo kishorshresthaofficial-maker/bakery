@@ -3,7 +3,7 @@ div.navigation
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 60px;
 }
 
 .links
@@ -13,7 +13,7 @@ div.navigation
 }
 
 .links a{
-    color: #555;
+    color: #858585;
     font-weight: 600;
     font-size: 18px;
 }
@@ -28,9 +28,20 @@ div.navigation
     gap: 10px;
 }
 
-.icon .icons_style
+.icon .icon_style
 {
-    font-size: 30px;
+    font-size: 24px;
+    color: #000;
+}
+
+.hero
+{
+    width: 100%;
+    height: 700px;
+    /* background-color: aqua; */
+    /* position:absolute; */
+    /* top: 0; */
+    z-index: -1;
 }
 
 .heroImg
@@ -38,10 +49,11 @@ div.navigation
     margin: -10px 0 0 0;
    height: 100vh;
    /* display: flex; */
-   background-color: #bc8157;
+   /* background-color: #bc8157; */
 }
 
 img
 {
     width: 100%;
+    height: 90%;
 }

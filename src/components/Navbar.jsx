@@ -1,6 +1,7 @@
 import { IoCart, IoSearch } from 'react-icons/io5'
 import './Navbar.css'
 import { FaRegUser } from 'react-icons/fa'
+import { Link } from 'react-router'
 export function Navbar (){
     return(
         <>
@@ -10,11 +11,11 @@ export function Navbar (){
                 </div>
                 <div className="menu">
                     <div className="links">
-                        <a href="#">Home</a>
-                        <a href="#">Shop</a>
-                        <a href="#">Pages</a>
-                        <a href="#">Home</a>
-                        <a href="#">Contact</a>
+                        <Link to= "/">Home</Link>
+                        <Link to="/shop">Shop </Link>
+                       <Link to="/pages">Pages </Link>
+                       <Link to="/blog">Blog </Link>
+                       <Link to="/contact">Contact </Link>
                     </div>
                 </div>
                 <div className="user-icons">
@@ -30,11 +31,6 @@ export function Navbar (){
                 </div>
             </div>
 
-            <div className="hero">
-                <div className="heroImg">
-                      <img src="images/hero.jpg" alt="" />
-                </div>
-            </div>
         </>
     )
 }
