@@ -1,16 +1,16 @@
 .come_with_us
 {
-    background-image: url("products/m1-bg1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: none; 
+   
     /* position: fixed; */
 }
 
 .inner_text_container
 {
-    position:relative;
-    /* top: 0; */
+    background-image: url("products/m1-bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none; 
+    height: 100%;
 }
 
     /* .inner_come

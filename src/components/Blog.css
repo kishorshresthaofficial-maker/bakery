@@ -1,5 +1,95 @@
 .blog_section
 {
-    background-color: #212121;
     opacity: 0.7;
+    display: flex;
+    padding: 0px 30px;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* gap: 40px; */
+}
+
+.blog_section
+{
+    padding: 120px 75px;
+}
+
+.blogTitle
+{
+    margin: 10px 0 20px 0;
+}
+
+.highlighter
+{
+    color: #bc8157;
+    font-weight: 700;
+}
+
+.bakeryBlog
+{
+    display: flex;
+    flex-direction: column;
+    
+    /* gap: 10px; */
+}
+
+.blogSubHead
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 24px;
+}
+
+/* .blogImg
+{
+    width: 1000px;
+    height: 700px;
+} */
+
+.blogImg img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.blogContent
+{
+    margin-bottom: 30px;
+}
+
+.blog_right_panel
+{
+    background-color: #efecec;
+    padding: 0px 50px;
+
+}
+
+.searchPanel{
+    display: flex;
+}
+
+.searchinput input
+{
+    width: 300px;
+    padding: 15px 20px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.searchBttn a
+{
+    position: relative;
+    right: 30px;
+    top: 10px;
+}
+
+.searchIconBtn
+{
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    color: #333;
+}
+
+.blogImg{
+    
 }

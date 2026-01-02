@@ -7,7 +7,7 @@ export function Navbar (){
         <>
             <div className="navigation">
                 <div className="logo">
-                    <img src="logo.svg" alt="" />
+                    <img src="/logo.svg" alt="" />
                 </div>
                 <div className="menu">
                     <div className="links">
