@@ -31,7 +31,7 @@ export const Categories = ()=>{
     ]
 
     const filteredItems = items.filter((prod,index)=>prod.category === category)
-console.log(filteredItems,"filtered")
+// console.log(filteredItems,"filtered")
 
       // const filteredCategory = data.filter((prod, index)=>prod.category === category)
 
@@ -49,7 +49,7 @@ console.log(filteredItems,"filtered")
                         <Link to="/blog/cake" onClick={()=>setCategory("cake")}>Cake</Link>
                         <a href="/">Cupcake</a>
                         <a href="#">Doughnut</a>
-                        <a href="#"onClick={()=>setCategory('muffin')} >Muffin</a>
+                        <Link to="/blog/muffin" onClick={()=>setCategory("muffin")}>Muffin</Link>
                         <a href="#">Brownie</a>
                         <a href="#">Pastery</a>
                         <a href="#">Waffle</a>

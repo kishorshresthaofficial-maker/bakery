@@ -3,13 +3,14 @@
     opacity: 0.7;
     display: flex;
     padding: 0px 30px;
+    gap: 10px;
     /* grid-template-columns: repeat(2, 1fr); */
     /* gap: 40px; */
 }
 
 .blog_section
 {
-    padding: 120px 75px;
+    padding: 120px 0px 120px 80px;
 }
 
 .blogTitle
@@ -57,12 +58,13 @@
 
 .blog_right_panel
 {
-    background-color: #efecec;
+    background-color: #f6f3f3;
     padding: 0px 50px;
 
 }
 
 .searchPanel{
+    padding-top: 20px;
     display: flex;
 }
 
